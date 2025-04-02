@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "childrens_rooms",
+  "info": {
+    "singularName": "children-room",
+    "pluralName": "childrens-rooms",
+    "displayName": "Детская",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "files",
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sanuzlies",
+  "info": {
+    "singularName": "sanuzly",
+    "pluralName": "sanuzlies",
+    "displayName": "Санузлы"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "files",
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

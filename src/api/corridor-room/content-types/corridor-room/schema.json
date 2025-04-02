@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "corridor_rooms",
+  "info": {
+    "singularName": "corridor-room",
+    "pluralName": "corridor-rooms",
+    "displayName": "Коридор"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

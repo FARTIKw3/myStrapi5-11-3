@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kitchens",
+  "info": {
+    "singularName": "kitchen",
+    "pluralName": "kitchens",
+    "displayName": "Кухни"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
